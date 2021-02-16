@@ -167,14 +167,16 @@ footer p {
 
 /* Testimonial */
 
-.testimonial {
+/* .testimonial { */
     /* background-color: rgb(178, 73, 76); */
-    background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp");
-    padding: 150px 100px;
-    color: white;
-}
 
-.testimonial-row {
+
+    /* background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp") !important;
+    padding: 150px 100px;
+    color: white; */
+/* } */
+
+/* .testimonial-row {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,18 +197,20 @@ footer p {
     align-self: center;
     justify-self: center;
     margin-bottom: 40px;
-}
+} */
 
-.testimonial__image {
-    background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp");
+/* .testimonial__image { */
+    /* background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp") !important; */
+
+
     /* background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp"); */
-}
+/* } */
 
-.testimonial-text {
+/* .testimonial-text {
     font-size: 18px;
     font-weight: 500;
     text-align: center;
-}
+} */
 
 
 /* Answers */
@@ -638,7 +642,7 @@ footer p {
 
 .testimonial {
   /* background-color: rgb(178, 73, 76); */
-  background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp");
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp");
   padding: 150px 100px;
   color: white;
 }
@@ -667,8 +671,9 @@ footer p {
 }
 
 .testimonial__image {
-  background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp");
-  /* background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp"); */
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp");
+  background-position: center;
+  background-size: cover;
 }
 
 .testimonial-text {
@@ -709,12 +714,29 @@ footer p {
 /* Last Session */
 
 .last-image {
-  background-image: url('//d1aettbyeyfilo.cloudfront.net/triciabiz/17114043_1613394265NRCTricia_6.webp');
-  /* background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/17114043_1613394265NRCTricia_6.webp"); */
-  /* /* background-position: center; */
+  background-image: url('https://d1aettbyeyfilo.cloudfront.net/triciabiz/17114043_1613394265NRCTricia_6.webp');
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 0px;
+  border-color: rgb(51, 51, 51);
+  border-style: none;
+  border-width: 0px;
+  opacity: 1;
+
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+
+  /* position: absolute !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; */
+
+  width: 100%;
+  height: 100%;
+
+
+  /* height: 100vh; */
 }
 
 .last-session__content {
@@ -730,8 +752,10 @@ footer p {
   width: 300px;
   height: 300px;
   background-color: #ff5252;
-  align-self: center;
-  justify-self: center;
+  /* align-self: center; */
+  /* justify-self: center; */
+  /* justify-content: center; */
+  /* display: flex; */
   padding: 10px;
 }
 
