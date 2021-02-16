@@ -323,6 +323,7 @@ footer p {
 /* .box-shadow {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 } */
+<<<<<<< HEAD
 
 .banner {
     background-color: burlywood;
@@ -333,6 +334,31 @@ footer p {
     font-weight: 700;
     font-size: 25px;
     color: rgb(131, 117, 193);
+=======
+.banner{
+  background-color: burlywood;
+}
+.banner_text{
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 25px;
+  color: rgb(131, 117, 193);
+}
+.banner_btn{
+  width:250px;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  background-color: rgb(178, 73, 76);
+  border-radius: 150px;
+  box-shadow:  0px 5px rgb(117, 33, 36);
+>>>>>>> dd09582e6055b210bf90cfea97e22f8d03784443
 }
 
 .banner_btn {
@@ -467,12 +493,20 @@ footer p {
 }
 
 .ninth_section {
+<<<<<<< HEAD
     width: 80%;
     font-weight: 600;
     text-align: center;
     padding: 100px 0px;
     color: #333;
     #c3bfc0;
+=======
+  width: 80%;
+  font-weight: 600;
+  text-align: center;
+  padding: 100px 0px;
+  color: #333;
+>>>>>>> dd09582e6055b210bf90cfea97e22f8d03784443
 }
 
 .eleventh_section {
@@ -488,8 +522,22 @@ footer p {
     text-align: center;
     padding: 50px 0px;
 }
+<<<<<<< HEAD
 
 .thirteenth_section {
     background-color: rgb(131, 117, 193);
     padding: 100px 0px;
 }
+=======
+.thirteenth_section {
+  background-color: rgb(131, 117, 193);
+  padding: 100px 0px;
+}
+.fifteenth_section {
+  font-weight: 600;
+  text-align: center;
+  padding: 100px 0px;
+  background-color: #b2494c;
+  color:#e8e1d3;
+}
+>>>>>>> dd09582e6055b210bf90cfea97e22f8d03784443
