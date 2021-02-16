@@ -1,0 +1,7 @@
+var redirect_url = '';
+
+(function() {
+    if (redirect_url !== '') {
+        window.location.replace(redirect_url);
+    }
+})();
