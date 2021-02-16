@@ -39,6 +39,10 @@ footer p {
 .banner {
     background-color: burlywood;
 }
+.padding-0{
+  padding-right:0;
+  padding-left:0;
+}
 
 .banner_text {
     margin-top: 20px;
@@ -248,8 +252,10 @@ footer p {
 }
 .banner_btn{
   width:250px;
+  height: 50px;
+  cursor: pointer;
   display: flex;
-  padding: 10px 20px;
+  padding: 20px 0px;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
@@ -366,6 +372,68 @@ footer p {
   padding: 100px 0px;
   color: #333;
 }
+
+.tenth_section{
+  /* font-weight: 600; */
+  text-align: center;
+  padding: 100px 0px;
+  background-color: #e8e1d3;
+  /* color:black; */
+}
+.tenth_underlined{
+  text-decoration: underline;
+  color: #333;
+  font-weight: 200;
+  font-size: 35px;
+  margin-top: 10px;
+}
+.tenth_header{
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+}
+.tenth_logo_text{
+  font-weight: 500;
+  color: #333;
+}
+.box{
+  width: 500px;
+  padding: 50px 30px;
+  color: white;
+  border-radius: 10px;
+}
+.box_header{
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.box_text{
+  font-weight: 200;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.wine{
+  background-color: #b2494c;
+}
+.creame{
+  background-color: #d28431
+}
+.purple{
+  background-color: rgb(131, 117, 193);
+}
+.icon{
+  width: 80px;
+  margin: auto;
+}
+.icon_holder{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
 .eleventh_section {
   font-weight: 600;
   text-align: center;
@@ -388,4 +456,45 @@ footer p {
   padding: 100px 0px;
   background-color: #b2494c;
   color:#e8e1d3;
+}
+.sixteenth_section{
+  background-color: rgb(131, 117, 193);
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.seventeenth_section {
+  color: white;
+  background-color: #e8e1d3;
+  padding: 100px 0px;
+}
+.seventeenth_section_header{
+  color: #2f3652;
+  font-size: 45px;
+  font-weight:700;
+}
+.seventeenth_section_text{
+  color: #2f3652;
+  font-size: 20px;
+  /* font-weight:300; */
+}
+.eighteenth_section {
+  text-align: center;
+  color: white;
+  background-color: rgb(131, 117, 193);
+  padding: 100px 0px;
+}
+.nineteenth_section{
+  font-weight: 600;
+  text-align: center;
+  padding: 100px 0px;
+  background-color: #c3bfc0;
+  color:black;
+}
+.nineteenth_section_header{
+  font-size: 50px;
+  color: #b2494c;
+  margin-bottom: 30px;
 }
