@@ -1,0 +1,50 @@
+var gdpr_cookie_banner_settings = {"display":false,"gdpr_cookie_banner":"We use cookies to improve our service, track analytics, remember preferences, etc. By using our site, you consent to these cookies. Click the \"Info\" button to read our privacy and cookie policies.","gdpr_cookie_banner_url":"","cookie_banner_html":"<!-- GDPR cookie BANNER -->\n<div class=\"gdpr_cookie_banner js_gdpr_cookie_banner\" style=\"display: none;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">\n                <div class=\"flex_grid\">\n                    \n                    <i><\/i>\n                    <p class=\"js_gdrp_cookie_banner_text\">\n                        We use cookies to improve our service, track analytics, remember preferences, etc. By using our site, you consent to these cookies. Click the &quot;Info&quot; button to read our privacy and cookie policies.\n                    <\/p>\n                    <div class=\"gdpr_button_block\">\n                        <a href=\"\" target=\"_blank\" class=\"gdpr_button js_gdpr_button\">INFO<\/a>\n                        <button class=\"gdpr_close js_gdpr_close\" type=\"button\" data-type=\"{asset_type}\" data-type-id=\"{asset_type_id}\" data-type-owner=\"{owner_hashed_id}\">I ACCEPT<\/button>\n                    <\/div>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>\n<!--\/\/ GDPR cookie BANNER -->  \n"};
+
+jQuery(document).ready(function() {
+	if (gdpr_cookie_banner_settings.display) {
+        //load old variables
+        var asset_type = jQuery('.js_gdpr_cookie_banner .js_gdpr_close').attr('data-type');
+        var asset_type_id = jQuery('.js_gdpr_cookie_banner .js_gdpr_close').attr('data-type-id');
+        var asset_owner = jQuery('.js_gdpr_cookie_banner .js_gdpr_close').attr('data-type-owner');
+        jQuery('.js_gdpr_cookie_banner').replaceWith(gdpr_cookie_banner_settings.cookie_banner_html);
+        //asign them back to button
+        jQuery('.js_gdpr_cookie_banner .js_gdpr_close').attr('data-type', asset_type);
+        jQuery('.js_gdpr_cookie_banner .js_gdpr_close').attr('data-type-id', asset_type_id);
+        jQuery('.js_gdpr_cookie_banner .js_gdpr_close').attr('data-type-owner', asset_owner);
+	    setTimeout(function(){
+	        jQuery('.js_gdpr_cookie_banner').slideDown(300, function(){
+	            // jQuery('.js_gdpr_close').fadeIn(300);
+                jQuery('.js_gdpr_cookie_banner').css('overflow', '');
+	        });
+
+            jQuery(document).trigger('kartra:gdprbanner:loaded');
+        }, 1000);
+	}
+
+	jQuery('.js_gdpr_close').on('click', function() {
+        jQuery('.js_gdpr_cookie_banner').slideUp(300);
+        var asset_type = jQuery(this).attr('data-type'),
+            asset_type_id = jQuery(this).attr('data-type-id'),
+            asset_owner = jQuery(this).attr('data-type-owner'),
+            location = window.location.protocol+'//'+window.location.hostname;
+
+        jQuery(document).trigger('kartra:gdprbanner:clicked');
+
+        jQuery.ajax({
+            type: 'POST',
+            url: 'https://app.kartra.com/gdpr_settings/',
+            data: {
+                'asset_type': asset_type,
+                'asset_type_id': asset_type_id,
+                'asset_owner': asset_owner,
+                'location': location
+            },
+            xhrFields: {
+                withCredentials: true
+            }
+        }).done(function(){
+
+        });
+    });       
+
+});

@@ -35,6 +35,7 @@ footer {
 footer p {
   margin-bottom: .25rem;
 } */
+<<<<<<< HEAD
 
 .banner {
     background-color: burlywood;
@@ -237,3 +238,152 @@ footer p {
 /* .box-shadow {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 } */
+=======
+.banner{
+  background-color: burlywood;
+}
+.banner_text{
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 25px;
+  color: rgb(131, 117, 193);
+}
+.banner_btn{
+  width:250px;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  background-color: rgb(178, 73, 76);
+  border-radius: 150px;
+  box-shadow:  0px 5px rgb(117, 33, 36);
+}
+.third_section {
+  background-color: rgb(131, 117, 193);
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+.section_header{
+  font-size: 30px;
+  line-height: 60px;
+}
+.section_header_two{
+  font-size: 30px;
+  width: 90%;
+  margin: auto;
+}
+.bolden{
+  font-weight: bold;
+  font-size: 38px;
+}
+.bullet_list{
+  font-size: 30px;
+  text-align: left;
+}
+.third_section_final_header{
+  color: #333;
+  font-weight: 600;
+  font-size: 35px;
+}
+.fourth_section {
+  background-color: #b2494c;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+.fifth_section {
+  background-color: #c3bfc0;
+  color: #333;
+  font-weight: 600;
+}
+.fifth_section_holder{
+  margin: 0px 10%;
+}
+.fifth_section_header{
+  margin-top: 20px;
+  font-size: 25px;
+  line-height: 50px;
+}
+.banner_color{
+  color: #b2494c;
+}
+.sixth_section {
+  background-color: rgb(131, 117, 193);
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.sixth_section_header{
+  font-size: 50px;
+}
+
+.seventh_section {
+  background-color: #b2494c;
+  color: #e8e1d3;
+  font-weight: 500;
+  text-align: center;
+  padding: 100px 0px;
+}
+.small_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #333;
+}
+.image_name{
+  font-size: 25px;
+}
+.image_social{
+  font-size: 20px;
+  color: white;
+}
+.single_info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.eight_section {
+  background-color: rgb(131, 117, 193);
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding: 100px 0px;
+
+}
+.eight_section_header{
+  font-size: 40px;
+  line-height: normal;
+}
+.ninth_section {
+  width: 80%;
+  font-weight: 600;
+  text-align: center;
+  padding: 100px 0px;
+  color: #333;
+  #c3bfc0;
+}
+.eleventh_section {
+  font-weight: 600;
+  text-align: center;
+  padding: 100px 0px;
+  background-color: #c3bfc0;
+  color:black
+}
+.twelvth_section {
+  background-color: #b2494c;
+  text-align: center;
+  padding: 50px 0px;
+}
+.thirteenth_section {
+  background-color: rgb(131, 117, 193);
+  padding: 100px 0px;
+
+}
+>>>>>>> f423da682be6a758265c8ebcb96689211337cf0c
