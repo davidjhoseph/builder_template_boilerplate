@@ -163,7 +163,6 @@ footer p {
   text-align: center;
   padding: 100px 0px;
   color: #333;
-  #c3bfc0;
 }
 .eleventh_section {
   font-weight: 600;
@@ -180,5 +179,11 @@ footer p {
 .thirteenth_section {
   background-color: rgb(131, 117, 193);
   padding: 100px 0px;
-
+}
+.fifteenth_section {
+  font-weight: 600;
+  text-align: center;
+  padding: 100px 0px;
+  background-color: #b2494c;
+  color:#e8e1d3;
 }
