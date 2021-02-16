@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --jumbotron-padding-y: 3rem;
 }
 
@@ -34,6 +34,28 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+} */
+.banner{
+  background-color: burlywood;
 }
-
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.banner_text{
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 25px;
+  color: blueviolet;
+}
+.banner_btn{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font:bold;
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  background-color: purple;
+  border-radius: 150px;
+  box-shadow: royalblue;
+}
+/* .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); } */
