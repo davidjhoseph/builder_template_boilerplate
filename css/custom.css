@@ -35,7 +35,6 @@ footer {
 footer p {
   margin-bottom: .25rem;
 } */
-<<<<<<< HEAD
 
 .banner {
     background-color: burlywood;
@@ -112,14 +111,28 @@ footer p {
     margin: 10px 0;
 }
 
-.w-30 {
+.w-3 {
     width: 30px;
     height: 30px;
 }
 
-.w-50 {
+
+/* .w-50 {
     width: 50px;
     height: 50px;
+} */
+
+.w-40 {
+    width: 40%;
+}
+
+.w-30 {
+    width: 33.33333%;
+}
+
+.w-half {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .fs-10 {
@@ -134,6 +147,10 @@ footer p {
     font-size: 20px;
 }
 
+.fs-23 {
+    font-size: 23px;
+}
+
 .fs-27 {
     font-size: 27px;
     font-weight: 500;
@@ -144,8 +161,17 @@ footer p {
     font-weight: 500;
 }
 
+.fs-50 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
 .c-black {
     color: black;
+}
+
+.c-gray {
+    color: #ccc;
 }
 
 .button-red {
@@ -159,6 +185,31 @@ footer p {
     letter-spacing: 1px;
     margin-top: 20px;
     box-shadow: 0rem .3rem 0rem .1rem rgb(153, 49, 52);
+}
+
+
+/* Course */
+
+.course {
+    background-color: #ccc;
+    height: 90vh;
+}
+
+.course-image_box {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 1.5rem;
+    height: 50vh;
+    margin: 0 30px;
+}
+
+.course-image {
+    background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/17129059_1613425210NlDWhatsApp_Image_2021-02-15_at_10.39.15_PM.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    /* margin: 0 50px; */
 }
 
 
@@ -210,24 +261,58 @@ footer p {
 
 .answers {
     /* background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/7704754_1580493911550031A7199.webp"); */
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
+    background-size: cover; */
+    /* height: 90vh; */
     background-color: orange;
 }
 
 .answers-box {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 30px 0;
     background-color: white;
-    padding: 20px 0;
+    padding: 20px;
+    margin: 30px 0;
     width: 100%;
 }
 
-.answer-box__content {}
+.answer-box__text {
+    font-size: 15px;
+    color: #4C4A4A;
+    padding: 25px;
+}
+
+
+/* Last Session */
+
+.last-image {
+    background-image: url('//d1aettbyeyfilo.cloudfront.net/triciabiz/17114043_1613394265NRCTricia_6.webp');
+    /* background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/17114043_1613394265NRCTricia_6.webp"); */
+    /* /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.last-session__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image-box {
+    width: 300px;
+    height: 300px;
+    background-color: #ff5252;
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
 
 
 /* .answers-opacity {
@@ -238,152 +323,173 @@ footer p {
 /* .box-shadow {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 } */
-=======
-.banner{
-  background-color: burlywood;
-}
-.banner_text{
-  margin-top: 20px;
-  font-weight: 700;
-  font-size: 25px;
-  color: rgb(131, 117, 193);
-}
-.banner_btn{
-  width:250px;
-  display: flex;
-  padding: 10px 20px;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  font-weight: 400;
-  color: white;
-  font-size: 25px;
-  margin-top: 20px;
-  background-color: rgb(178, 73, 76);
-  border-radius: 150px;
-  box-shadow:  0px 5px rgb(117, 33, 36);
-}
-.third_section {
-  background-color: rgb(131, 117, 193);
-  color: white;
-  font-weight: 500;
-  text-align: center;
-}
-.section_header{
-  font-size: 30px;
-  line-height: 60px;
-}
-.section_header_two{
-  font-size: 30px;
-  width: 90%;
-  margin: auto;
-}
-.bolden{
-  font-weight: bold;
-  font-size: 38px;
-}
-.bullet_list{
-  font-size: 30px;
-  text-align: left;
-}
-.third_section_final_header{
-  color: #333;
-  font-weight: 600;
-  font-size: 35px;
-}
-.fourth_section {
-  background-color: #b2494c;
-  color: white;
-  font-weight: 500;
-  text-align: center;
-}
-.fifth_section {
-  background-color: #c3bfc0;
-  color: #333;
-  font-weight: 600;
-}
-.fifth_section_holder{
-  margin: 0px 10%;
-}
-.fifth_section_header{
-  margin-top: 20px;
-  font-size: 25px;
-  line-height: 50px;
-}
-.banner_color{
-  color: #b2494c;
-}
-.sixth_section {
-  background-color: rgb(131, 117, 193);
-  color: white;
-  font-weight: 500;
-  text-align: center;
+
+.banner {
+    background-color: burlywood;
 }
 
-.sixth_section_header{
-  font-size: 50px;
+.banner_text {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(131, 117, 193);
+}
+
+.banner_btn {
+    width: 250px;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: rgb(178, 73, 76);
+    border-radius: 150px;
+    box-shadow: 0px 5px rgb(117, 33, 36);
+}
+
+.third_section {
+    background-color: rgb(131, 117, 193);
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.section_header {
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.section_header_two {
+    font-size: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.bolden {
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.bullet_list {
+    font-size: 30px;
+    text-align: left;
+}
+
+.third_section_final_header {
+    color: #333;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.fourth_section {
+    background-color: #b2494c;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.fifth_section {
+    background-color: #c3bfc0;
+    color: #333;
+    font-weight: 600;
+}
+
+.fifth_section_holder {
+    margin: 0px 10%;
+}
+
+.fifth_section_header {
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.banner_color {
+    color: #b2494c;
+}
+
+.sixth_section {
+    background-color: rgb(131, 117, 193);
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sixth_section_header {
+    font-size: 50px;
 }
 
 .seventh_section {
-  background-color: #b2494c;
-  color: #e8e1d3;
-  font-weight: 500;
-  text-align: center;
-  padding: 100px 0px;
+    background-color: #b2494c;
+    color: #e8e1d3;
+    font-weight: 500;
+    text-align: center;
+    padding: 100px 0px;
 }
-.small_image{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #333;
+
+.small_image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #333;
 }
-.image_name{
-  font-size: 25px;
+
+.image_name {
+    font-size: 25px;
 }
-.image_social{
-  font-size: 20px;
-  color: white;
+
+.image_social {
+    font-size: 20px;
+    color: white;
 }
-.single_info{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.single_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .eight_section {
-  background-color: rgb(131, 117, 193);
-  color: white;
-  font-weight: 700;
-  text-align: center;
-  padding: 100px 0px;
+    background-color: rgb(131, 117, 193);
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 100px 0px;
+}
 
+.eight_section_header {
+    font-size: 40px;
+    line-height: normal;
 }
-.eight_section_header{
-  font-size: 40px;
-  line-height: normal;
-}
+
 .ninth_section {
-  width: 80%;
-  font-weight: 600;
-  text-align: center;
-  padding: 100px 0px;
-  color: #333;
-  #c3bfc0;
+    width: 80%;
+    font-weight: 600;
+    text-align: center;
+    padding: 100px 0px;
+    color: #333;
+    #c3bfc0;
 }
-.eleventh_section {
-  font-weight: 600;
-  text-align: center;
-  padding: 100px 0px;
-  background-color: #c3bfc0;
-  color:black
-}
-.twelvth_section {
-  background-color: #b2494c;
-  text-align: center;
-  padding: 50px 0px;
-}
-.thirteenth_section {
-  background-color: rgb(131, 117, 193);
-  padding: 100px 0px;
 
+.eleventh_section {
+    font-weight: 600;
+    text-align: center;
+    padding: 100px 0px;
+    background-color: #c3bfc0;
+    color: black
 }
->>>>>>> f423da682be6a758265c8ebcb96689211337cf0c
+
+.twelvth_section {
+    background-color: #b2494c;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.thirteenth_section {
+    background-color: rgb(131, 117, 193);
+    padding: 100px 0px;
+}
