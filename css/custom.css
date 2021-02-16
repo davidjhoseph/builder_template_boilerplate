@@ -498,3 +498,249 @@ footer p {
   color: #b2494c;
   margin-bottom: 30px;
 }
+
+
+
+
+
+---------
+
+/* General */
+
+.red_bg {
+  background-color: rgb(178, 73, 76);
+}
+
+.red_text {
+  color: rgb(178, 73, 76)
+}
+
+.border-yellow {
+  border-bottom: 3px solid orange;
+  display: inline-block;
+}
+
+.wt-500 {
+  font-weight: 500;
+}
+
+.w-20 {
+  width: 8rem;
+  height: 8rem;
+  /* background-color: white; */
+  border-radius: 3.5rem;
+  margin: 10px 0;
+}
+
+.w-3 {
+  width: 30px;
+  height: 30px;
+}
+
+
+/* .w-50 {
+  width: 50px;
+  height: 50px;
+} */
+
+.w-40 {
+  width: 40%;
+}
+
+.w-30 {
+  width: 33.33333%;
+}
+
+.w-half {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-23 {
+  font-size: 23px;
+}
+
+.fs-27 {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.fs-30 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.fs-50 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.c-black {
+  color: black;
+}
+
+.c-gray {
+  color: #ccc;
+}
+
+.button-red {
+  background-color: rgb(178, 73, 76);
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  font-size: 20px;
+  border-radius: 2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  box-shadow: 0rem .3rem 0rem .1rem rgb(153, 49, 52);
+}
+
+
+/* Course */
+
+.course {
+  background-color: #ccc;
+  height: 90vh;
+}
+
+.course-image_box {
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 1.5rem;
+  height: 50vh;
+  margin: 0 30px;
+}
+
+.course-image {
+  background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/17129059_1613425210NlDWhatsApp_Image_2021-02-15_at_10.39.15_PM.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  /* margin: 0 50px; */
+}
+
+
+/* Testimonial */
+
+.testimonial {
+  /* background-color: rgb(178, 73, 76); */
+  background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp");
+  padding: 150px 100px;
+  color: white;
+}
+
+.testimonial-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial__image-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 40px;
+}
+
+.testimonial__image {
+  background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp");
+  /* background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp"); */
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+/* Answers */
+
+.answers {
+  /* background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/7704754_1580493911550031A7199.webp"); */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* height: 90vh; */
+  background-color: orange;
+}
+
+.answers-box {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  background-color: white;
+  padding: 20px;
+  margin: 30px 0;
+  width: 100%;
+}
+
+.answer-box__text {
+  font-size: 15px;
+  color: #4C4A4A;
+  padding: 25px;
+}
+
+
+/* Last Session */
+
+.last-image {
+  background-image: url('//d1aettbyeyfilo.cloudfront.net/triciabiz/17114043_1613394265NRCTricia_6.webp');
+  /* background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/17114043_1613394265NRCTricia_6.webp"); */
+  /* /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.last-session__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.image-box {
+  width: 300px;
+  height: 300px;
+  background-color: #ff5252;
+  align-self: center;
+  justify-self: center;
+  padding: 10px;
+}
+
+
+/* .answers-opacity {
+  opacity: 0.1;
+} */
+
+
+/* .box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+} */
