@@ -617,7 +617,7 @@ footer p {
 
 .course {
   background-color: #ccc;
-  height: 90vh;
+  /* height: 90vh; */
 }
 
 .course-image_box {
@@ -637,6 +637,14 @@ footer p {
   /* margin: 0 50px; */
 }
 
+.course__icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
 
 /* Testimonial */
 
