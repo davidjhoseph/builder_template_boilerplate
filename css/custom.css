@@ -36,8 +36,8 @@ footer p {
   margin-bottom: .25rem;
 } */
 
-.banner {
-    background-color: burlywood;
+/* .banner {
+    background-color: #e8e1d4;
 }
 .padding-0{
   padding-right:0;
@@ -64,8 +64,11 @@ footer p {
     background-color: purple;
     border-radius: 150px;
     box-shadow: royalblue;
+} */
+ul{
+  padding: 20px;
+  /* margin: 0; */
 }
-
 
 /* Question Bar */
 
@@ -246,7 +249,7 @@ footer p {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 } */
 .banner{
-  background-color: burlywood;
+  background-color: #e8e1d4;
 }
 .banner_text{
   margin-top: 20px;
