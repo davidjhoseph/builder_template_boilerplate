@@ -338,13 +338,71 @@ footer p {
   font-weight: 500;
   text-align: center;
   padding: 100px 0px;
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .small_image{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #333;
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(51, 51, 51);
+  border-style: none;
+  border-width: 0px;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
+
+.small_image.first {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/13781764_1602759133263tola.webp");
+}
+
+.small_image.second {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12179572_1597350401548Joycee_Awosika.webp");
+}
+.small_image.third {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12103351_1597132602906Fagunke_onyemowo.webp");
+}
+
+.small_image.four {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12104092_1597135307019virtual_assistant.webp");
+}
+
+.small_image.five {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12182628_1597356233238triciabiz-1597243397677.webp");
+}
+
+.small_image.six {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/13379218_1601411063125tracy.webp");
+}
+
+.small_image.seven {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12180686_1597351926562Temi.webp");
+}
+
+.small_image.eight {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12179847_1597350790217Cacilia.webp");
+}
+
+.small_image.nine {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12182702_1597356437688triciabiz-1597243270279.webp");
+}
+
+.small_image.ten {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12179479_1597350195015steve-harris-2.webp");
+}
+.small_image.eleven {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12179818_1597350731015Lamide_Johnson.webp");
+}
+.small_image.twelve {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12179520_1597350288685obis.webp");
+}
+
 .image_name{
   font-size: 25px;
 }
@@ -443,7 +501,12 @@ footer p {
   text-align: center;
   padding: 100px 0px;
   background-color: #c3bfc0;
-  color:black
+  color:black;
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17120361_1613408507unWMYK_1.webp");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .twelvth_section {
   background-color: #b2494c;
@@ -459,6 +522,11 @@ footer p {
   text-align: center;
   padding: 100px 0px;
   background-color: #b2494c;
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color:#e8e1d3;
 }
 .sixteenth_section{
@@ -727,10 +795,14 @@ footer p {
 /* Testimonial */
 
 .testimonial {
-  /* background-color: rgb(178, 73, 76); */
+  background-color: rgb(178, 73, 76);
   background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp");
   padding: 150px 100px;
   color: white;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .testimonial-row {
