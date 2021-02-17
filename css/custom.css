@@ -167,14 +167,16 @@ footer p {
 
 /* Testimonial */
 
-.testimonial {
+/* .testimonial { */
     /* background-color: rgb(178, 73, 76); */
-    background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp");
-    padding: 150px 100px;
-    color: white;
-}
 
-.testimonial-row {
+
+    /* background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp") !important;
+    padding: 150px 100px;
+    color: white; */
+/* } */
+
+/* .testimonial-row {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,18 +197,20 @@ footer p {
     align-self: center;
     justify-self: center;
     margin-bottom: 40px;
-}
+} */
 
-.testimonial__image {
-    background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp");
+/* .testimonial__image { */
+    /* background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp") !important; */
+
+
     /* background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp"); */
-}
+/* } */
 
-.testimonial-text {
+/* .testimonial-text {
     font-size: 18px;
     font-weight: 500;
     text-align: center;
-}
+} */
 
 
 /* Answers */
@@ -334,13 +338,71 @@ footer p {
   font-weight: 500;
   text-align: center;
   padding: 100px 0px;
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .small_image{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #333;
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(51, 51, 51);
+  border-style: none;
+  border-width: 0px;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
+
+.small_image.first {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/13781764_1602759133263tola.webp");
+}
+
+.small_image.second {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12179572_1597350401548Joycee_Awosika.webp");
+}
+.small_image.third {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12103351_1597132602906Fagunke_onyemowo.webp");
+}
+
+.small_image.four {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12104092_1597135307019virtual_assistant.webp");
+}
+
+.small_image.five {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12182628_1597356233238triciabiz-1597243397677.webp");
+}
+
+.small_image.six {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/13379218_1601411063125tracy.webp");
+}
+
+.small_image.seven {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12180686_1597351926562Temi.webp");
+}
+
+.small_image.eight {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12179847_1597350790217Cacilia.webp");
+}
+
+.small_image.nine {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12182702_1597356437688triciabiz-1597243270279.webp");
+}
+
+.small_image.ten {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12179479_1597350195015steve-harris-2.webp");
+}
+.small_image.eleven {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12179818_1597350731015Lamide_Johnson.webp");
+}
+.small_image.twelve {
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12179520_1597350288685obis.webp");
+}
+
 .image_name{
   font-size: 25px;
 }
@@ -439,7 +501,12 @@ footer p {
   text-align: center;
   padding: 100px 0px;
   background-color: #c3bfc0;
-  color:black
+  color:black;
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17120361_1613408507unWMYK_1.webp");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .twelvth_section {
   background-color: #b2494c;
@@ -455,6 +522,11 @@ footer p {
   text-align: center;
   padding: 100px 0px;
   background-color: #b2494c;
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color:#e8e1d3;
 }
 .sixteenth_section{
@@ -499,11 +571,6 @@ footer p {
   margin-bottom: 30px;
 }
 
-
-
-
-
----------
 
 /* General */
 
@@ -612,8 +679,8 @@ footer p {
 /* Course */
 
 .course {
-  background-color: #ccc;
-  height: 90vh;
+  background-color: rgb(195, 191, 192);
+  padding: 100px 0px 0px;
 }
 
 .course-image_box {
@@ -633,14 +700,109 @@ footer p {
   /* margin: 0 50px; */
 }
 
+.course__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.course__description {
+  flex: 1;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: "Roboto Slab",serif;
+  line-height: 1.9em;
+}
+
+.course__description.right {
+  padding-right: 15px;
+  text-align: right;
+}
+
+.course__description.left {
+  padding-left: 15px;
+}
+
+.course__description span {
+  font-size: 1.4rem; 
+  color: rgb(128, 0, 0);
+}
+
+.course__phone-wrapper {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  padding: 0px;
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.course__phone {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 0px;
+  border-color: rgb(51, 51, 51);
+  border-style: none;
+  border-width: 0px;
+  opacity: 1;
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17129059_1613425210NlDWhatsApp_Image_2021-02-15_at_10.39.15_PM.webp");
+
+  width: 86.2%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 76%;
+  left: 6.7%;
+  top: 12%;
+  z-index: 1 !important;
+
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  background-position: center center;
+}
+
+.course__title {
+  font-weight: 400;
+  margin-bottom: 15px;
+  letter-spacing: 0.07rem;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.course__title span {
+  color: rgb(0, 0, 0);
+  font-size: 1.6rem;
+}
+
+.course__title__description {
+  margin-bottom: 15px;
+  color: #fff;
+  font-family: "Roboto Slab",serif;
+  font-weight: 700;
+  text-align: center;
+  /* font-size: 2.35rem; */
+  font-size: 3.7rem;
+  line-height: 1.2em;
+}
 
 /* Testimonial */
 
 .testimonial {
-  /* background-color: rgb(178, 73, 76); */
-  background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp");
+  background-color: rgb(178, 73, 76);
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17120224_1613408259KqNMYK.webp");
   padding: 150px 100px;
   color: white;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .testimonial-row {
@@ -667,8 +829,9 @@ footer p {
 }
 
 .testimonial__image {
-  background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp");
-  /* background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp"); */
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/12103334_1597132513749Harry_Morah.webp");
+  background-position: center;
+  background-size: cover;
 }
 
 .testimonial-text {
@@ -709,12 +872,29 @@ footer p {
 /* Last Session */
 
 .last-image {
-  background-image: url('//d1aettbyeyfilo.cloudfront.net/triciabiz/17114043_1613394265NRCTricia_6.webp');
-  /* background-image: url("//d1aettbyeyfilo.cloudfront.net/triciabiz/17114043_1613394265NRCTricia_6.webp"); */
-  /* /* background-position: center; */
+  background-image: url('https://d1aettbyeyfilo.cloudfront.net/triciabiz/17114043_1613394265NRCTricia_6.webp');
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 0px;
+  border-color: rgb(51, 51, 51);
+  border-style: none;
+  border-width: 0px;
+  opacity: 1;
+
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+
+  /* position: absolute !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; */
+
+  width: 100%;
+  height: 100%;
+
+
+  /* height: 100vh; */
 }
 
 .last-session__content {
@@ -730,8 +910,10 @@ footer p {
   width: 300px;
   height: 300px;
   background-color: #ff5252;
-  align-self: center;
-  justify-self: center;
+  /* align-self: center; */
+  /* justify-self: center; */
+  /* justify-content: center; */
+  /* display: flex; */
   padding: 10px;
 }
 
