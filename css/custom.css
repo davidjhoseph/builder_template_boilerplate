@@ -504,11 +504,6 @@ footer p {
 }
 
 
-
-
-
----------
-
 /* General */
 
 .red_bg {
@@ -616,8 +611,8 @@ footer p {
 /* Course */
 
 .course {
-  background-color: #ccc;
-  /* height: 90vh; */
+  background-color: rgb(195, 191, 192);
+  padding: 100px 0px 0px;
 }
 
 .course-image_box {
@@ -638,12 +633,95 @@ footer p {
 }
 
 .course__icon {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   border: 2px solid;
   border-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0);
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.course__description {
+  flex: 1;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: "Roboto Slab",serif;
+  line-height: 1.9em;
+}
+
+.course__description.right {
+  padding-right: 15px;
+  text-align: right;
+}
+
+.course__description.left {
+  padding-left: 15px;
+}
+
+.course__description span {
+  font-size: 1.4rem; 
+  color: rgb(128, 0, 0);
+}
+
+.course__phone-wrapper {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  padding: 0px;
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.course__phone {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 0px;
+  border-color: rgb(51, 51, 51);
+  border-style: none;
+  border-width: 0px;
+  opacity: 1;
+  background-image: url("https://d1aettbyeyfilo.cloudfront.net/triciabiz/17129059_1613425210NlDWhatsApp_Image_2021-02-15_at_10.39.15_PM.webp");
+
+  width: 86.2%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 76%;
+  left: 6.7%;
+  top: 12%;
+  z-index: 1 !important;
+
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  background-position: center center;
+}
+
+.course__title {
+  font-weight: 400;
+  margin-bottom: 15px;
+  letter-spacing: 0.07rem;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.course__title span {
+  color: rgb(0, 0, 0);
+  font-size: 1.6rem;
+}
+
+.course__title__description {
+  margin-bottom: 15px;
+  color: #fff;
+  font-family: "Roboto Slab",serif;
+  font-weight: 700;
+  text-align: center;
+  /* font-size: 2.35rem; */
+  font-size: 3.7rem;
+  line-height: 1.2em;
 }
 
 /* Testimonial */
